@@ -1,0 +1,10 @@
+Models,Input Size,Number of Layers,Activation Function,Stride,Dropout rate,Optimizer,Learning rate,Batch Size,Epochs
+HybridFusion_R50_AlexNet,224 × 224 × 3,58,ReLU / Sigmoid,4,0.35,Adam,0.0001,32,100
+AlexNet,224 × 224 × 3,8,ReLU,4,0.5,Adam,0.0001,32,100
+ResNet50,224 × 224 × 3,50,ReLU,2,0.3,Adam,0.0001,32,100
+InceptionV3,224 × 224 × 3,159,ReLU,2,0.3,Adam,0.0001,32,100
+DenseNet121,224 × 224 × 3,121,ReLU,2,0.3,Adam,0.0001,32,100
+MobileNetV2,224 × 224 × 3,53,ReLU6,2,0.3,Adam,0.0001,32,100
+HybridFusion_R50_AlexNet_NoPreproc,224 × 224 × 3,58,ReLU / Sigmoid,4,0.35,Adam,0.0001,32,100
+HybridFusion_R50_AlexNet_Concat,224 × 224 × 3,58,ReLU,4,0.35,Adam,0.0001,32,100
+HybridFusion_R50_AlexNet_Avg,224 × 224 × 3,58,ReLU,4,0.35,Adam,0.0001,32,100

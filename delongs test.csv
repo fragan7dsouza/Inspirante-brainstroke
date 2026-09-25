@@ -1,0 +1,6 @@
+Model_A (Hybrid),Model_B (Baseline),AUC_Hybrid,AUC_Baseline,AUC_Difference,DeLong_Z,DeLong_p,Significance
+HybridFusion_R50_AlexNet,AlexNet,0.9672,0.955,0.0122,1.5091,0.13126555007036966,ns
+HybridFusion_R50_AlexNet,ResNet50,0.9672,0.9153,0.052,5.4481,5.090760302195463e-08,***
+HybridFusion_R50_AlexNet,DenseNet121,0.9672,0.896,0.0712,6.2076,5.378830714164451e-10,***
+HybridFusion_R50_AlexNet,MobileNetV2,0.9672,0.896,0.0713,6.3937,1.619315792567022e-10,***
+HybridFusion_R50_AlexNet,InceptionV3,0.9672,0.892,0.0752,6.3436,2.243871755069904e-10,***

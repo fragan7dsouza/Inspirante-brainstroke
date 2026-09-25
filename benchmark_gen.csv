@@ -1,0 +1,9 @@
+Model,Accuracy,Precision,Recall,F1,Specificity,Sensitivity,AUC,Loss,TN,FP,FN,TP
+HybridFusion_R50_AlexNet_Finetuned,0.802,0.78313253,0.93,0.790243902,0.85,0.93,0.8925,0.414051771,76,24,19,81
+ResNet50,0.65,0.596153846,0.81,0.7265625,0.37,0.81,0.83135,1.918575287,37,63,7,93
+MobileNetV2,0.735,0.771428571,0.65,0.710382514,0.82,0.65,0.814,0.546326041,82,18,35,65
+DenseNet121,0.69,0.779411765,0.53,0.630952381,0.76,0.53,0.8017,0.557663918,85,15,47,53
+InceptionV3,0.68,0.730769231,0.57,0.640449438,0.79,0.57,0.7309,0.629193664,79,21,43,57
+AlexNet,0.545,0.527950311,0.85,0.651340996,0.24,0.85,0.6147,1.261308908,24,76,15,85
+,,,,,,,,,,,,
+Generalized test results(trained on original Ozgur Aslan  dataset from kaggle and tested on teknofest21 dataset) ,,,,,,,,,,,,

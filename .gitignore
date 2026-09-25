@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+
+# Large datasets and model weights (exceed GitHub limits / kept out of git)
+model_weights/
+original_set/
+external_kaggle/
