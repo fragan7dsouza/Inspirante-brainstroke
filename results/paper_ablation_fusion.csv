@@ -1,0 +1,7 @@
+Model,Accuracy,Precision,Recall,F1,Specificity,AUC,Note
+Hybrid Gated (proposed),0.8802,0.9536,0.7994,0.8697,0.9611,0.9671,phase 1 only
+Hybrid NoPreproc,0.9162,0.9399,0.8892,0.9138,0.9431,0.9695,trained without augmentation
+AlexNet,0.8787,0.9534,0.7964,0.8679,0.9611,0.9550,
+Hybrid Avg,0.8698,0.9427,0.7874,0.8581,0.9521,0.9384,
+Hybrid Concat,0.8473,0.9496,0.7335,0.8277,0.9611,0.9341,
+ResNet50,0.8129,0.9265,0.6796,0.7841,0.9461,0.9153,

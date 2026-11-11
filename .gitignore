@@ -1,2 +1,7 @@
 __pycache__/
 *.pyc
+.venv/
+venv_gpu/
+model_weights_retrained/
+# downloaded external datasets (see README)
+data/external/
